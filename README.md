@@ -22,8 +22,8 @@ var Socket = require('ftp-normal-sockets')
 
 var myFtp = new Ftp()
     .extend(FtpUserPass({
-    	'joseph': '12345',
-    	'friends': 'lol insecure'
+    	joseph: '12345',
+    	friends: 'lol insecure'
     }))
     .extend(Socket({ listen: 21 }))
 ```
@@ -49,6 +49,11 @@ var myFtp = new Ftp()
     .extend(FtpUserPass(userPassMap))
     .extend(Socket({ listen: 21 }))
 ```
+
+#todo
+
+- [ ] add tests
+- [ ] in the docs, talk a bit about how ftp-core extensions work
 
 #license
 
