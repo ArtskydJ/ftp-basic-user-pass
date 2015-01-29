@@ -1,0 +1,30 @@
+{
+  "name": "ftp-basic-user-pass",
+  "version": "0.0.1",
+  "description": "Extension for the ftp-core, handling USER and PASS commands with a user:pass hash.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArtskydJ/ftp-basic-user-pass.git"
+  },
+  "keywords": [
+    "ftp",
+    "server",
+    "basic",
+    "authentication",
+    "user",
+    "password"
+  ],
+  "author": "Joseph Dykstra",
+  "license": "VOL",
+  "bugs": {
+    "url": "https://github.com/ArtskydJ/ftp-basic-user-pass/issues"
+  },
+  "homepage": "https://github.com/ArtskydJ/ftp-basic-user-pass",
+  "dependencies": {
+    "ftp-return-codes": "0.0.3"
+  }
+}
